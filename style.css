@@ -1,0 +1,120 @@
+body {
+    background-color: hsl(47, 88%, 63%);    font-family: 'Figtree', sans-serif;
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.container {
+    background-color: azure;
+    width: 410px;
+    height: 420px;
+    box-shadow: 8px 8px rgb(1, 12, 6);
+    border-radius: 15px;
+    border: 1px solid hsl(0, 0%, 32%);
+    font-family: 1em sans-serif;
+    padding: 5px 3px;
+}
+
+#blog-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.img img{
+    border-radius: 15px;
+    width: 280px;
+    height: 180px; 
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+.image {
+    position: relative;
+    top: 10px;
+    margin-bottom: 20px;
+    width: 35px;
+
+}
+
+#learn {
+    color: #000;
+    cursor: pointer;
+    background-color: hsl(47, 88%, 63%);
+    width: 86px;
+    border-radius: 4px;
+    padding: 7px 6px;
+    border: none;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 10px;
+    font: bolder;
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+#public {
+    margin-left: 10px;
+    font-size: small;
+    color: hsl(0, 0%, 7%);
+}
+.html:active{
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+.html:hover{
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+
+}
+
+.html {
+    margin-left: 10px;
+    margin-top: -2px;
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+
+}
+
+.language {
+    margin-left: 10px;
+    margin-top: -5px;
+    padding: 3px;
+    width: 300px;
+    color: hsl(0, 0%, 42%);
+    font-size: small;
+}
+
+p{
+    font-size: 16px;
+}
+
+#hooper {
+    margin-left: 50px;
+    position: relative;
+    top: -55px;
+    margin-bottom: 7px;
+    font-size: smaller;
+    font-weight: 800;
+}
+
+.greg {
+    margin-left: 10px;
+    margin-top: -10px;
+    margin-bottom: 15px;
+}
+
+@media screen and (min-width: 320px) {
+    .container {
+        width: 298px;
+        position: relative;
+        left: 4px;
+    }
+}
